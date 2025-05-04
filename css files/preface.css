@@ -1,0 +1,104 @@
+body,html{
+    width:100%;
+    padding:0;
+    background-color:black;
+    color:white;
+   
+    
+    font-family:cursive, sans-serif;
+
+
+}
+.logo{
+    width:200px;
+    font-size:30px;
+    letter-spacing:1px;
+    font-weight:bolder;
+    padding:2px;
+    margin:10% auto 50px auto;
+    text-align:center;
+    opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+
+}
+img{
+    vertical-align:middle;
+}
+.first{
+    width:400px;
+    font-size:22px;
+    margin:0 auto;
+    text-align:center;
+    font-weight:bold;
+    opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 2s;
+}
+.second{
+    width:400px;
+    line-height:25px;
+    margin:15px auto;
+    text-align:center;
+    font-size:18px;
+    opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 3s;
+}
+.learn {
+    width:100px;
+    margin:10px auto;
+    opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+.learn a{
+    text-decoration: none;
+    color:rgb(31, 227, 31);
+    font-size:18px
+}
+.main{
+    width:300px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    background-color: rgb(24, 196, 24);
+    margin:50px auto 50% auto;
+    border:2px solid black;
+    border-radius:25px;
+     opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 5s;
+
+}
+.main a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-weight: bolder;
+    font-size:larger;
+}
+.main:hover{
+    background-color:darkgreen;
+    border:1px solid white;
+}
+.learn:hover{
+    text-decoration:underline;
+    color:rgb(42, 228, 42);
+}
+
+
+/* Animation definition */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Starts above and fades in */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Ends at the original position */
+    }
+}
+
+

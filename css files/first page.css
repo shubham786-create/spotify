@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background:linear-gradient(to right, rgba(0,0,200,0.5),rgba(200,0,0,0.5)); /* Example background */
+    opacity:0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+    will-change: mix-blend-mode, opacity, transform;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Same as image size */
+    height: 100px;
+
+}
+
+.image img {
+    width: 150%; /* Make sure image fits */
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Starts above and fades in */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Ends at the original position */
+    }
+}

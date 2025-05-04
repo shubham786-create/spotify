@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(14, 13, 13);
+    color:white;
+    width:100%;
+    padding:0;
+    margin:0;
+    font-family: 'roboto',sans-serif;
+}
+h1{
+    font-size:40px;
+    margin:30px 10px;
+    text-align: start;
+}
+input{
+    
+    width:90%;
+margin:10px;
+height:60px;
+border-radius:8px;
+display:flex;
+flex-direction: column;
+
+}
+.parts{
+    display:grid;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+}
+h2{
+    margin:10px;
+}
+.parts div{
+    width:42%;
+    height:120px;
+    border:2px solid black;
+    margin:2%;
+    text-align: center;
+    border-radius:10px;
+    font-size: large;
+    font-weight:bold;
+    
+}
+.pop{
+    background-color: rgb(167, 101, 229);
+}
+.bolly{
+    background-color: rgb(111, 12, 12);
+}
+.all{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    height:auto;
+    width:100%;
+
+    justify-content: space-around;
+}
+.all div{
+    height:120px;
+    width:85%;
+    height:120px;
+    border:2px solid black;
+    margin:10px;
+    text-align: center;
+    border-radius:10px;
+    font-size:large;
+    font-weight: bold;
+
+
+}
+.pod{
+    background-color: rgb(234, 25, 25);
+}
+.new{
+    background-color: rgb(202, 35, 149);
+}
+.chart{
+    background-color: rgb(167, 101, 229);
+}
+.concert{
+    background-color: rgb(4, 4, 128);
+}
+.you{
+    background-color: rgb(4, 4, 128);
+}
+.home{
+    background-color: rgb(12, 88, 145);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position:sticky;
+    bottom:0px;
+    background-color: black;
+    height:50px;
+
+}
+input:focus{
+    outline:2px solid white;
+    background-color: darkblue;
+    color:white;
+    transition:background-color ease 0.5s, outline ease 0.5s;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+@media screen and (min-width:768px) {
+    .parts{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    }
+    .parts div{
+       
+        border:2px solid black;
+        width:auto;
+     
+
+    
+}
+.all{
+display:grid;
+grid-template-columns: repeat(2,  1fr);
+justify-content: center;
+}
+
+.all div{
+  width:auto;
+  border:2px solid black;
+}
+}
