@@ -34,35 +34,35 @@ h2{
 
 }
 .box-1{
-    background-image: url('../images/arijit.webp');
+    background-image: url('../arijit.webp');
   
 }
 .box-2{
-    background-image: url('../images/shreya.webp');
+    background-image: url('../shreya.webp');
 }
 .box-3{
-    background-image:url('../images/darshan.webp')
+    background-image:url('../darshan.webp')
 }
 .box-4{
-    background-image: url('../images/stebin.webp');
+    background-image: url('../stebin.webp');
 }
 .box-5{
-    background-image: url('../images/Vishal.webp');
+    background-image: url('../Vishal.webp');
 }
 .box-6{
-    background-image: url('../images/atif.jpg');
+    background-image: url('../atif.jpg');
 }
 .box-7{
-    background-image:url('../images/monali.webp');
+    background-image:url('../monali.webp');
 }
 .box-8{
-    background-image:url('../images/jasleen.webp');
+    background-image:url('../jasleen.webp');
 }
 .box-9{
-    background-image:url('../images/dhvani.webp');
+    background-image:url('../dhvani.webp');
 }
 .box-10{
-    background-image:url('../images/rahat.webp')
+    background-image:url('../rahat.webp')
 }
 @media (min-width:768px){
     .main{
