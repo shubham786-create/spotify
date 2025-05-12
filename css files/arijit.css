@@ -119,6 +119,7 @@ p{
     background-color:green;
     border-radius:50%;
 }
+
 section.one{
     line-height: 10px;
 }
@@ -139,6 +140,30 @@ section.two p{
     letter-spacing:0.2px;
 
 }
+.song{
+    width:100%;
+    display:flex;
+    flex-direction: row;;
+    align-items: center;
+    background-color:rgb(20, 18, 18);
+    position:sticky;
+    z-index:5;
+    bottom:0px;
+    position:sticky;
+    visibility: hidden;
+  
+}
+.song img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+
+}
+audio{
+ width:100%;
+}
+
+
 footer{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -147,8 +172,8 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    position:sticky;
-    z-index:5;
+   position:sticky;
+    z-index:4;
     bottom:0px;
     background-color: rgb(20, 18, 18);
 
